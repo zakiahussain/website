@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- this is the jquery inside head sectin-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title >RESUME PAGE</title>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "css/Style.css"> </link>
+
+   <div class="page"> <!--This <Div> tag is for whole page-->
+     <div id="main">
+   <div class="head"> <!--This <Div> tag is for head section-->
+   <div class="img">
+
+<img src="pics/download.jpg"width="150" height="130" >
+  </div>
+ 
+   <p class="h2">HTML CSS JAVA SCRIPT DEMONSSTARATION</p>
+    <p class="h3">Zakia Hussain</p>
+  
+   <div class="right">
+      
+	   <div class:"head a"> <!----this <div> is for links within the head section-->
+	   
+  <a href= "home.html">HOME</a>&nbsp 
+   <a href= "Resume.html" >RESUME</a>&nbsp
+   <a href="contact.html" >CONTACT</a> </div>
+  </div>
+   
+   </div>
+  
+   <body>
+      <div class="bodypart">
+	<p class="p">RESUME PAGE</p>
+	
+	    <p class="h4">Zakia Hussain</p>
+		<p class="h4" style="color:red">Student At TechFoundry</p>
+		<p style="text-align:center">Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Morbi arcu mattis <b>sit amet lobortis eros consequat</b>
+		<br>Nunc sit amet posuere nisl, finibus aliquam erat. 
+		Duis eleifend<br></p>
+<p><em>*Click on the section headings to see them slide up and down</em></p>
+
+						<p class="heading" id="expSec" title="click here to slide up and down">EXPERTISE</p>
+						<div id="expDiv">
+					
+<ul>
+  <li>Adobe Photoshop</li>
+  <li>Adobe Illustrator</li>
+  <li>Javascript (jQuery)</li>
+  <li>CSS3</li>
+</ul></div>
+    <script> 
+$(document).ready(function(){
+    $("#expSec").click(function(){
+        $("#expDiv").slideToggle("slow");
+    });
+});
+</script>	     
+
+<p class="heading" id="exp" title="click here to slide up and down">EXPERIENCE</p>
+
+<div id="expDi">
+
+<p class="resumeCompany" id="resCum"> <span>2015 – 2017 </span>    company name</p>
+<p class="resumeJob " id="resJob">JOB TITLE/ROLE</p>
+<p class="resumepara">Lorem ipsum dolor sit amet, consectetur adipiscing elit.isus. In congue tellus ec 
+libero finibus condimentum nisi gravida</p>
+<p class="resumeCompany" id="resCum"> <span>2015 – 2017 </span>    company name</p>
+<p class="resumeJob " id="resJob">JOB TITLE/ROLE</p>
+<p class="resumepara">Lorem ipsum dolor sit amet, consectetur adipiscing elit.isus. In congue tellus ec 
+libero finibus condimentum nisi gravida</p>
+</div>
+                            
+<script> 
+$(document).ready(function(){
+    $("#exp").click(function(){
+        $("#expDi").slideToggle("slow");
+    });
+});
+</script>	  
+
+
+
+<p class="heading" id="edu" title="click here to slide up and down">EDUCATION</p>
+<div id="eduDiv">
+
+<p class="resumeEducation"> <span>2015 – 2017 </span> 2015 – 2017  DEGREE / MAJOR </p>
+<p class="resumeJob">COLLEGE OR UNIVERSITY </p>
+<p class="resumepara">Lorem ipsum fjkldl jdghladsg iero[e dolor sit amet, consectetur adipiscing elit. Nunc ipsum fjkldl jdghladsg iero[e dolor sit amet, consectet felis quis nulla facilisis aliquet suscipit id risus. In congue tellus ec libero finibus condimentum nisi gravida.</p>
+<p class="resumeEducation"> <span>2015 – 2017 </span> 2015 – 2017  DEGREE / MAJOR </p>
+<p class="resumeJob">COLLEGE OR UNIVERSITY </p>
+<p class="resumepara">Lorem ipsum fjkldl jdghladsg iero[e dolor sit amet, consectetur adipiscing elit. Nunc ipsum fjkldl jdghladsg iero[e dolor sit amet, consectet felis quis nulla facilisis aliquet suscipit id risus. In congue tellus ec libero finibus condimentum nisi gravida.</p>
+<p class="resumeEducation"> <span>2015 – 2017 </span> 2015 – 2017  DEGREE / MAJOR </p>
+<p class="resumeJob">COLLEGE OR UNIVERSITY </p>
+<p class="resumepara">Lorem ipsum fjkldl jdghladsg iero[e dolor sit amet, consectetur adipiscingipsum 
+fjkldl jdghladsg iero[e dolor sit amet, consect elit. Nunc et felis quis nulla facilisis aliquet suscipit
+ id risus. In congue tellus ec libero finibus condimentum nisi gravida.</p>
+ </div>
+                            
+<script> 
+$(document).ready(function(){
+    $("#edu").click(function(){
+        $("#eduDiv").slideToggle("slow");
+    });
+});
+</script>	  
+ 
+</div></div>
+<footer class="footer">
+	<div><a href="#main">Top</a> | <a href="resume.html">Resume</a> | <a href="contact.html">Contact</a> | <a href="../index.html">
+	HTML Lesson</a> | <a href="javascript:alert('Hello World!');">Execute JavaScript</a></div>
+	<p>Copyright © 2017 The Tech Foundry. All Rights Reserved.</p></footer>
+</body>
+
+</html>

@@ -1,0 +1,302 @@
+.page {
+	 background-color:black;
+ width:1080px;
+ height:1165px;
+ border-style:groove;
+ margin-left:80px;
+ 
+}
+.head{
+	width:1075px;
+ height:170px;
+ border-style:groove;
+ background-color:black;
+
+}
+.bodypart{
+	width:1075px;
+ height:980px;
+ border-style:groove;
+ background-color:white;
+}
+
+.bodypart .breakpart
+{
+	width:1075px;
+ height:30px;
+ border-style:groove;
+ background-color:black;
+ margin-top:430px;        <!this is for separation of pic and breakline-->
+
+ }
+ .bodypart .image{
+	 width:400px;
+     height:400px;
+    /*/ border-style:groove;/*/
+	/*/background-image:url('pics/fl.jpg');/*/
+	background-repeat:no-repeat;
+	background-size:cover;  /*/this tag is to fit an img in the screen--> /*/
+	display:inline-block;
+	margin-top:0px;
+	margin-left:0px;
+	float:left;
+ }
+.bodypart .paragraph
+{
+	
+ width:600px;
+ height:400px;
+ 
+ float:right;
+ margin:10px 20px 10px 10px;
+		}
+.celllayout{
+	width:34%;
+   box-sizing:border-box;
+   display:table-cell;
+   vertical-align:top;
+   
+}		
+.head a
+{
+	text-decoration:none;
+	color:white;
+	text-align:right;
+	
+	
+	
+	 }
+	 .head a:hover{
+		 background-color:red;
+	 }
+	 .left { float: left; margin: 50 .10em .10em 0; }
+.right { float: right;margin-right:3%;  }
+
+.name-display{
+ color:black;
+ margin:1px 5px 5px 70px
+ 
+ text-transform:uppercase;
+ font-size:150%;
+ font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+}
+.page-content{
+
+ margin-top:4px;
+ margin-left:60px;
+ 
+ text-transform:uppercase;
+ font-size:110%;
+ font-family: Tahoma, Arial, Hevetica, Sans-Serif;	
+}
+.content-link{
+text-decoration:0;
+  margin-left:60px;
+  text-transform:uppercase;
+ font-size:100%;
+ font-family:Tahoma, Arial, Helvetica, Sans-Serif;	
+}
+.content-link a{
+	text-decoration:none;
+	color:gray;
+}
+.content-link a:hover{
+	text-decoration:underline;
+	color:red;
+	background-color:white;
+}
+.mailing{
+margin-top:4px;
+text-decoration:none;
+ color:black;
+ text-transform:uppercase;
+ font-size:100%;
+ font-family: Tahoma, Arial, Hevetica, Sans-Serif;	
+text-decoration:none; 
+}
+.mailing a{
+	margin-top:4px;
+text-decoration:none;
+ color:red;
+ text-transform:uppercase;
+ font-size:100%;
+ font-family: Tahoma, Arial, Hevetica, Sans-Serif;	
+text-decoration:none; 
+}
+.mailing a:hover{
+	text-decoration:underline;
+	background-color:white;
+}
+.footer
+{
+   background:black;
+   
+   padding:25px;
+   margin:0 auto;
+   position: relative;
+   color: white;
+   font-size: 13px;
+   font-family: Tahoma, Arial, Helvetica;
+   line-height: 175%;
+   text-align: center;
+}
+.footer a
+{
+	text-decoration:none;
+	color:gray;
+	text-align:right;
+	
+	
+	
+	 }
+	
+	 
+.footer a:hover{
+	color:red;
+	background-color:black;
+}	 
+.para{
+text-align:right;
+margin:2cm 5cm 20cm 4cm;
+}
+
+.aside {
+  float: right;
+  margin: 0 10.5%;
+  width: 50%;
+}
+
+a:hover { 
+    background-color:  #B5B5B5;
+}
+
+
+.img {
+    float: left;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+}
+.button
+{
+	text-decoration:none;
+	color:white;
+   border: 0;
+   border-collapse: separate;
+   -webkit-background-origin: border !important;
+   -moz-background-origin: border !important;
+   background-origin: border-box !important;
+   background: #B5B5B5;
+   -webkit-border-radius:3px;
+   -moz-border-radius:3px;
+   border-radius:3px;
+   border-width: 0;
+   padding:10px 3px 3px 10px;
+   margin:0 auto;
+   height:25px;
+}
+
+
+.celllayout{
+	width:34%;
+   box-sizing:border-box;
+   display:table-cell;
+   vertical-align:top;
+}		
+	
+.para{
+text-align:right;
+margin:2cm 5cm 20cm 4cm;
+}
+
+
+
+
+.h1{
+	 margin-top:0px;
+	font-size:150%;
+	text-align:center;
+	color:black;
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+}
+
+.h2 {
+ color:white;
+ text-align: right;
+ margin-top:1px;
+ margin-right:15px;
+ text-transform:uppercase;
+ font-size:150%;
+ font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+ 
+ 
+}
+.h3{
+	color:red;
+	text-align: right;
+ margin-right:15px;
+ font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+ margin-top:1px;
+ text-transform:uppercase;
+ font-size:170%;
+}
+.h4{
+	 margin-top:0px;
+	font-size:150%;
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	text-align:center;
+	color:black;
+	font-family:"Times New Roman", Georgia, Serif;
+	
+}
+
+.heading{
+	color:black;
+	margin-left:60px;
+	text-transform:uppercase;
+	font-weight:900;
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+}
+.p {
+text-align:left;
+margin-left:20px;
+margin-top:2px;
+font-weight:700;
+ color: #333300;
+ 	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+ 
+}
+
+
+.resumeCompany {
+	font-size: .9em; 
+	margin-left:60px;
+	line-height: normal; 
+	color: #000000; 
+	text-transform: uppercase; 
+	font-weight: 600;
+	margin-left:60px;
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;}
+	.resumeEducation {
+	font-size: .9em; 
+	margin-left:60px; 
+	line-height: normal; 
+	color: #000000; 
+	text-transform: uppercase; 
+	font-weight: 600;
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	margin-left:60px;
+	}
+	.resumeJob {
+	font-size: .9em; 
+	margin-left:140px; 
+	line-height: normal; 
+	color: rgb(154, 154, 154) ; 
+	text-transform: uppercase;
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	}
+	.resumepara{
+		font-size:1em; 
+	margin-left:140px; 
+	line-height: normal; 
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+	}

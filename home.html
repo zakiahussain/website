@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- this is the jquery inside head sectin-->
+<title>HOME PAGE </title>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "css/Style.css"> </link>
+
+   <div class="page">   <!--This <Div> tag is for whole page-->
+    <div id="main">     <!-- this is for navigation-->
+   <div class="head"> <!--This <Div> tag is for head section-->
+   <div class="img">
+
+<img src="pics/download.jpg"width="150" height="150" >
+  </div>
+ 
+   <p class="h2" >HTML CSS JAVA SCRIPT DEMONSSTARATION</p>
+    <p class="h3">Zakia Hussain</p>
+   
+   <div class="right">
+      
+	   <div class:"head a"> <!----this <div> is for links within the head section-->
+	  
+   <a href= "home.html">HOME</a>&nbsp 
+   <a href ="Resume.html" >RESUME</a>&nbsp
+   <a href="contact.html" >CONTACT</a> </div>
+  </div>
+   
+   </div>
+   
+   <body>
+ 
+   <div class="bodypart">
+   
+     <div class="image"><p id="photo" width="300" height="400"top="none"><img src="pics/z.jpg" alt="photo" id="photo" width="400" height="400" align="left" top="none">
+</p></div>
+    <div class="paragraph"><p style="text-align:left">This is the HTML assignment.Inthis webpage I used HTML and CSS.
+HTML: It stands for HyperText Markup Language. It is a markup language
+ for creating webpages. Webpages are usually viewed in a web browser.
+ They can include writing, links, pictures, and even sound and video.
+ HTML is used to mark and describe each of these kinds of content so the web browser can show them correctly.
+ CSS : CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, 
+ or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once.</p>
+ <button id="rock" onclick="rock()">Fade Pic</button>
+  <script>
+$(document).ready(function(){
+    $("#rock").click(function(){
+        $("#photo").fadeToggle();
+    });
+});
+
+</script>
+ 
+ 
+ </div>
+ 
+ 
+ 
+   <div class="breakpart"> </div>
+     <div class="celllayout">
+          <p style="text-align: center;">
+           <img width="100" height="100" src="pics/resume.jpg" </p>
+		   
+		   <h3 style="text-align: center;font-size: 24pt;font-weight: 400;margin-bottom: 22px;>
+										<span style="font-family: Arial; text-transform: uppercase;">RESUME</span>
+										</h3>
+										
+										<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Etiam pharetra, tellus sit amet congue vulputate, nisi</p>
+										<p style="text-align: center;"><a href="Resume.html" onclick="newDoc()" target="_self" class="button" target="_self" class="button">CLICK HERE</a>
+										</p>
+             </div>
+     <div class="celllayout">
+          <p style="text-align: center;">
+           <img width="100" height="100" src="pics/contact.jpg" </p>
+		   <h3 style="text-align: center;font-size: 24pt;font-weight: 400;margin-bottom: 22px;>
+										<span style="font-family: Arial; text-transform: uppercase;">CONTACT</span>
+										</h3>
+										
+										<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Etiam pharetra, tellus sit amet congue vulputate, nisi</p>
+										<p style="text-align: center;"><a href="contact.html" target="_self" class="button">CLICK HERE</a>
+										</p>
+             </div>
+	<div class="celllayout">
+          <p style="text-align: center;">
+           <img width="100" height="100" src="pics/linkdin.jpg" </p>
+		   <h3 style="text-align: center;font-size: 24pt;font-weight: 400;margin-bottom: 22px;>
+										<span style="font-family: Arial; text-transform: uppercase;">LINKDIN</span>
+										</h3>
+										
+										<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+										Etiam pharetra, tellus sit amet congue vulputate, nisi</p>
+										<p style="text-align: center;"><a href="http://linkedin.com" target="_blank" class="button">CLICK HERE</a>
+										</p>
+             </div>		 
+   </div>
+   
+   <footer class="footer">
+	<div><a href="#main">Top</a> | <a href="resume.html">Resume</a> | <a href="contact.html">Contact</a> | <a href="https://www.w3schools.com/html/">
+	HTML Lesson</a> | <a href="javascript:alert('Hello World!');">Execute JavaScript</a></div>
+	<p>Copyright © 2017 The Tech Foundry. All Rights Reserved.</p></footer>
+
+</div>
+
+ </body>
+     
+   
+
+   
+</head>
+
+
+
+ 
+</html>
